@@ -1,4 +1,4 @@
-<h1>TRƯỜNG TRUNG HỌC PHỔ THÔNG LONG KHÁNH</h1>
+<h1>LONG KHANH HIGH SCHOOL</h1>
 <div class="thongtin"></div>
 	<b>Tên: </b> <i>Lê Thị Thu Hồng</i>
 <div class="thongtin"></div>
