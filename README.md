@@ -1,5 +1,5 @@
 <body>
-	<h1>TRANG CÁ NHÂN CỦA LÊ THỊ THU HỒNG</h1>
+	<h1>TRƯỜNG TRUNG HỌC PHỔ THÔNG LONG KHÁNH</h1>
 	<div class="thongtin"></div>
 		<b>Tên: </b> <i>Lê Thị Thu Hồng</i>
 	<div class="thongtin"></div>
