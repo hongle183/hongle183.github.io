@@ -7,4 +7,3 @@
 	<div class="thongtin"></div>
 		<b>Facebook: </b> <i> <a href="https://www.facebook.com/thuhong.IT.code/"> https://www.facebook.com/thuhong.IT.code/ </a></i>
 </body>
-</html>
