@@ -1,9 +1,3 @@
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>LÊ THỊ THU HỒNG</title>
-	<link rel="stylesheet" type="text/css" href="1.css">
-</head>
 <body>
 	<h1>TRANG CÁ NHÂN CỦA LÊ THỊ THU HỒNG</h1>
 	<div class="thongtin"></div>
