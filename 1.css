@@ -23,7 +23,7 @@
 }
 @media all and (max-width: 270px) {
 	.main{
-		width: 240px;	
+		width: 200px;	
 		margin: 0 auto;
 	}
 }
