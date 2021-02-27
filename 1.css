@@ -30,7 +30,7 @@
    		background: pink;
    	}
 	.main{
-		max-width: 260px;
+		width: 260px;
 		background-color: #F7F9FA;
 		margin: 0 auto;
 	}
