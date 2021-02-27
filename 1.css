@@ -21,9 +21,9 @@
 		margin: 0 auto;
 	}
 }
-@media all and (max-width: 750px) {
+@media all and (max-width: 360px) {
 	.main{
-		width: 300px;	
+		width: 340px;	
 		margin: 0 auto;
 	}
 }
