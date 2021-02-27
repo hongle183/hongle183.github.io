@@ -16,24 +16,22 @@
 	border:0;
 }
 @media all and (min-width: 1025px) {
-    	body {
-   		background-color: pink;
-   	} 	
 	.main{
 		width: 860px;
-		background-color: #F7F9FA;
 		margin: 0 auto;
 	}
 }
 @media all and (max-width: 320px) {
-   	body {
-   		background-color: pink;
-   	}
 	.main{
 		width: 260px;
-		background-color: #F7F9FA;
 		margin: 0 auto;
 	}
+}
+body{
+	background-color: pink;
+}
+.main{
+	background-color: #F7F9FA;
 }
 article.tinchinh{
 	padding: 20px;
