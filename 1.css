@@ -15,20 +15,32 @@
 	padding: 0;
 	border:0;
 }
-.sc{
-	background-color: pink;
-}
-.main{
+@media all and (min-width: 1025px) {
+    body {
+   	background: pink;
+   	} 	
+	.main{
 	width: 860px;
 	background-color: #F7F9FA;
-	margin-left: 243px;
+	margin: 0 auto;
+	}
+}
+@media all and (max-width: 320px) {
+    body {
+   	background: pink;
+   	}
+	.main{
+	max-width: 300px;
+	background-color: #F7F9FA;
+	margin: 0 auto;
+	}
 }
 article.tinchinh{
 	padding: 20px;
 }
-img{
-	width: 49%;
-	margin: 4px;
+.img{
+	width: 50%;
+	margin: 0 auto;
 }
 article.tinchinh h3{
 	color: white;
@@ -72,10 +84,12 @@ a.new p{
 	text-shadow:grey 1px 2px 4px;
 }
 .minh-hoa{
-	width: 80%;
-	margin-left: 80px;
+	text-align: center;
 }
-.minh-hoa:hover{
+.minh-hoa img{
+	width: 80%;
+}
+.minh-hoa img:hover{
 	width: 85%;
 	transition: 0.5s;
 }
@@ -86,9 +100,10 @@ article.tinphu{
 }
 article.tinphu div.tungtinphu{
 	width: 264px;
+	display: block;
 	float: left;
 }
-article.tinphu img.imgtinphu{
+.imgtinphu{
 	width: 100%;
 	border-left: 15px solid pink;
 	border-right: 15px solid pink;
@@ -132,7 +147,6 @@ article.tin img{
 	width: 20%;
 	display: block;
 	float: left;
-	border: none;
 }
 a.n1{
 	text-decoration: none;
@@ -141,6 +155,8 @@ a.n1{
 	font-weight: bold;
 	padding: 5px;
 	margin-left: 25px;
+	display: inline-block;
+	float: left;
 }
 a.n2{
 	text-decoration: none;
@@ -149,6 +165,8 @@ a.n2{
 	font-weight: bold;
 	padding: 5px;
 	margin-left: 10px;
+	display: inline-block;
+	float: unset;
 }
 a.n3{
 	text-decoration: none;
@@ -157,7 +175,7 @@ a.n3{
 	font-size: 20px;
 	font-weight: bold;
 	padding-top: 18px;
-	padding-left: 190px;
+	margin-left: 190px;
 }
 a.n3:hover{
 	color: red;
@@ -179,16 +197,31 @@ article.video h3{
 	font-family: sans-serif;
 	margin-bottom: 20px;
 }
+.wy{
+	width: 80%;
+	max-width: 640px;
+	margin-left: 20px;
+}
 .youtube{
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 0 px;
+	height: 0;
+	overflow: hidden;
+}
+.youtube iframe, .youtube object, .youtube embed{
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
-	margin-left: 50px;
+	height: 100%;
 }
 .follow{
 	width: 100px;
 	height: 315px;
 	text-align: center;
-	margin-left: 660px;
-	margin-top: -317px;
+	margin-left: 690px;
+	margin-top: -310px;
 }
 .follow i{
 	margin-top: 15px;
