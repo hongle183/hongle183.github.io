@@ -18,13 +18,11 @@
 @media all and (min-width: 1025px) {
 	.main{
 		width: 860px;
-		margin: 0 auto;
 	}
 }
 @media all and (max-width: 320px) {
 	.main{
-		width: 260px;
-		margin: 0 auto;
+		width: 260px;	
 	}
 }
 body{
@@ -32,6 +30,7 @@ body{
 }
 .main{
 	background-color: #F7F9FA;
+	margin: 0 auto;
 }
 article.tinchinh{
 	padding: 20px;
