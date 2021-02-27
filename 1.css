@@ -1,0 +1,236 @@
+@font-face{
+	src:url(rockston.ttf);
+	font-family: ROCKSTON;
+}
+@font-face{
+	src:url(UVNKyThuat.TTF);
+	font-family: UVNKyThuat;
+}
+@font-face{
+	src:url(UVNThayGiaoNhe_R.TTF);
+	font-family: UVNThayGiao;
+}
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+.sc{
+	background-color: pink;
+}
+.main{
+	width: 860px;
+	background-color: #F7F9FA;
+	margin-left: 243px;
+}
+article.tinchinh{
+	padding: 20px;
+}
+img{
+	width: 49%;
+	margin: 4px;
+}
+article.tinchinh h3{
+	color: white;
+	background-color: red;
+	padding: 5px;
+	margin-left: 4px;
+	box-shadow:red 1px 1px 3px;
+	display: inline;
+}
+a.new{
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 38px;	
+	font-family: ROCKSTON;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 5px;
+	transition: 0.5s;
+}
+a.new p{
+	font-size: 20px;
+	text-align: center;
+	font-family: ROCKSTON;
+	margin-top: 0px;
+}
+.new:hover{
+	color: red;
+}
+.tinchinh p{
+	margin: 20px;
+	text-align: justify;
+	font-size: 17px;
+	font-family: UVNThayGiao;
+	font-style: bold;
+}
+.tieu-de{
+	margin-left: 20px;
+	font-size: 22px;
+	font-family: UVNThayGiao;
+	text-shadow:grey 1px 2px 4px;
+}
+.minh-hoa{
+	width: 80%;
+	margin-left: 80px;
+}
+.minh-hoa:hover{
+	width: 85%;
+	transition: 0.5s;
+}
+article.tinphu{
+	padding: 20px;
+	background-color: pink;
+	overflow: hidden;
+}
+article.tinphu div.tungtinphu{
+	width: 264px;
+	float: left;
+}
+article.tinphu img.imgtinphu{
+	width: 100%;
+	border-left: 15px solid pink;
+	border-right: 15px solid pink;
+	border-top: 5px solid pink;
+	border-bottom: none;
+	box-shadow: none;
+}
+a.news{
+	display: block;
+	text-decoration: none;
+	margin-left: 15px;
+	color: black;
+	font-size: 15px;	
+	line-height: 20px;
+	font-weight: bolder;
+}
+.news:hover{
+	color: red;
+}
+article.tinphu p{
+	margin-left: 15px;
+	font-style: italic;
+	color: red;
+}
+article.tin{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+article.tin h3{
+	margin-top: 15px;
+	color: red;
+	font-weight: bold;
+	border-bottom: 3px solid red;
+	font-family: arial;
+
+}
+article.tin img{
+	margin-top: 15px;
+	width: 20%;
+	display: block;
+	float: left;
+	border: none;
+}
+a.n1{
+	text-decoration: none;
+	color: white;
+	background-color: red;
+	font-weight: bold;
+	padding: 5px;
+	margin-left: 25px;
+}
+a.n2{
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	font-weight: bold;
+	padding: 5px;
+	margin-left: 10px;
+}
+a.n3{
+	text-decoration: none;
+	display: block;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 18px;
+	padding-left: 190px;
+}
+a.n3:hover{
+	color: red;
+}
+article.tin p{
+	margin-left: 190px;
+}
+article.video{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	background-color: #F7F9FA;
+	overflow: hidden;
+}
+article.video h3{
+	color: red;
+	font-weight: bold;
+	border-bottom: 3px solid red;
+	font-family: sans-serif;
+	margin-bottom: 20px;
+}
+.youtube{
+	width: 100%;
+	margin-left: 50px;
+}
+.follow{
+	width: 100px;
+	height: 315px;
+	text-align: center;
+	margin-left: 660px;
+	margin-top: -317px;
+}
+.follow i{
+	margin-top: 15px;
+	font-size: 32px;
+}
+.follow a{
+	text-decoration: none;
+	font-family: UVNKyThuat;
+	color: white;
+	display: block;
+	margin-top: 10px;
+}
+.follows{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 5px;
+}
+.fb{
+	background-color: #38529A;
+	color: white;
+}
+.tt{
+	background-color: #1DA1F2;
+	color: white;
+}
+.yt{
+	background-color: #F70000;
+	color: white;
+}
+.fb:hover{
+	margin-left: 10px;
+	background-color: #36487C;
+	transition: 0.5s;
+}
+.tt:hover{
+	margin-left: 10px;
+	background-color: #2483BF;
+	transition: 0.5s;
+}
+.yt:hover{
+	margin-left: 10px;
+	background-color: #C41515;
+	transition: 0.5s;
+}
+/*background-color: transparent; làm nền icon trong suốt*/
