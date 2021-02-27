@@ -25,7 +25,7 @@
 		margin: 0 auto;
 	}
 }
-@media only and (max-width: 320px) {
+@media all and (max-width: 320px) {
    	body {
    		background: pink;
    	}
