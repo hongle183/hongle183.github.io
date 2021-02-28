@@ -20,11 +20,17 @@
 		width: 860px;
 		margin: 0 auto;
 	}
+	article.tinchinh{
+		padding: 20px;
+	}
 }
 @media all and (max-width: 400px) {
 	.main{
 		width: 310px;	
 		margin: 0 auto;
+	}
+	article.tinchinh{
+		padding: 5px;
 	}
 }
 body{
@@ -32,9 +38,6 @@ body{
 }
 .main{
 	background-color: #F7F9FA;
-}
-article.tinchinh{
-	padding: 20px;
 }
 .img{
 	width: 50%;
