@@ -23,7 +23,12 @@
 	article.tinchinh{
 		padding: 20px;
 	}
-}
+	.tinchinh p{
+		margin: 20px;
+	}
+	.tieu-de{
+		margin-left: 20px;
+	}
 @media all and (max-width: 400px) {
 	.main{
 		width: 310px;	
@@ -31,6 +36,12 @@
 	}
 	article.tinchinh{
 		padding: 5px;
+	}
+	.tinchinh p{
+		margin: 5px;
+	}
+	.tieu-de{
+		margin-left: 5px;
 	}
 }
 body{
@@ -72,14 +83,12 @@ a.new p{
 	color: red;
 }
 .tinchinh p{
-	margin: 20px;
 	text-align: justify;
 	font-size: 17px;
 	font-family: UVNThayGiao;
 	font-style: bold;
 }
 .tieu-de{
-	margin-left: 20px;
 	font-size: 22px;
 	font-family: UVNThayGiao;
 	text-shadow:grey 1px 2px 4px;
