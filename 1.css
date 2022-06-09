@@ -39,7 +39,8 @@
 	}
 }
 body{
-	background: pink;
+	background: url(./bg_car.jpg);
+	background-size: cover;
 }
 .main{
 	background-color: #F7F9FA;
